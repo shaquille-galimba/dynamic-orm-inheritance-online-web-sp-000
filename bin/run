@@ -17,4 +17,6 @@ song1.save
 
 puts Song.find_by_name("Fall")
 
-# DB[:conn].execute("SELECT * FROM songs")
+
+
+DB[:conn].execute("SELECT * FROM songs")
